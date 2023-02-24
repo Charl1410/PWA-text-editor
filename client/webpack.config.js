@@ -20,7 +20,7 @@ module.exports = () => {
       // Webpack plugin that generates our html file and injects our bundles. 
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'html'
+        title: 'text-editor.html'
       }),
      
       // Injects our custom service worker
@@ -34,8 +34,8 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         // name: 'Contact Cards',
-        short_name: 'Contact',
-        description: 'Never forget your contacts!',
+        short_name: 'Text editor',
+        description: 'Save your text!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: './',
