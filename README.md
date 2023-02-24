@@ -1,7 +1,7 @@
 # 19 Progressive Web Applications (PWA): Text Editor
 
 ## Description 
-The aim of this application is to create a text editor that saves data through caching. The app can be downloaded as a desktop application therefore can be used offline. 
+The aim of this application is to create a text editor that saves data through caching. The single page app can be downloaded as a desktop application therefore can be used offline. Users can generate any type of text such as code, notes etc.
 
 ## Acceptance Criteria
 
@@ -33,4 +33,23 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 
-## 
+## Initialisation
+To use this application node.js must be installed: https://nodejs.org/en/download/ <br />
+
+**The packages required are:**
+ * **package name**  @5.0.0
+ 
+
+All dependencies should alreadt be in the package.json file and installed through running ```npm i``` in the terminal.
+
+## Usage
+
+
+## Screenshots 
+
+
+## Contributors
+
+
+
+## Licensing 
