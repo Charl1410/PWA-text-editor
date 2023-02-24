@@ -1,4 +1,4 @@
-# 19 Progressive Web Applications (PWA): Text Editor
+# PWA Text Editor
 
 ## Description 
 The aim of this application is to create a text editor that saves data through caching. The single page app can be downloaded as a desktop application therefore can be used offline. Users can generate any type of text such as code, notes etc.
@@ -36,20 +36,15 @@ THEN I should have proper build scripts for a webpack application
 ## Initialisation
 To use this application node.js must be installed: https://nodejs.org/en/download/ <br />
 
-**The packages required are:**
- * **package name**  @5.0.0
- 
+**The main packages required are:**
+ * **webpack**  @5.51.1
+* **@babel/core**  7.15.0
 
-All dependencies should alreadt be in the package.json file and installed through running ```npm i``` in the terminal.
+For a full lost of packages see the package.json file in the src folder.
+
+All dependencies should already be in the package.json file and installed through running ```npm i``` in the terminal.
 
 ## Usage
-
-
-## Screenshots 
-
-
-## Contributors
-
-
+To run the application run `npm run build` followed by `npm run start`
 
 ## Licensing 
